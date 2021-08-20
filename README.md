@@ -1,10 +1,13 @@
 # Prediction of standard cell types and functional markers from flow cytometry gating definitions using machine learning
 
-This repository contain the notebook script and dataset used for prediction of cell types and functional markers.
+This repository contain the notebook scripts and dataset used for prediction of cell types and functional markers.
 
 #### Included files:
 
 * *gating_definition_classification.ipynb*: main scripts
+
+It requires the PRO ontology to fully run ("pro_reasoned.owl").
+
 * *dataset.tsv*: dataset for training and test
 
 The dataset includes the following data types:
